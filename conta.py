@@ -11,7 +11,3 @@ class Conta:
     rend = self.saldo * 0.1
     print(f"Seu rendimento foi: {rend}")
 
-dinheiro = Conta(100)
-dinheiro.sacar(50)
-dinheiro.depositar(20)
-dinheiro.calcular_rend()
